@@ -59,3 +59,4 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 13: Testing results*<br>
     ![13  Lazagne detections from new rule](https://github.com/user-attachments/assets/f05ac6af-5670-48d4-a65d-b3409cc02f48)<br>
 *Ref 14: LaZagne detections from new rule*<br>
+10. Go to orginization from the home page of LimaCharlie dashboard and select detection. Clear all of them and head back to your Windows 10 VM/server to run LaZagne. Go back to find detections after LaZagne is ran. We can now use the available fields in the event detection in our playbook.
