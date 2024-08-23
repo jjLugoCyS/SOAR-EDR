@@ -60,3 +60,20 @@ The Detection Lab project aimed to establish a controlled environment for simula
     ![13  Lazagne detections from new rule](https://github.com/user-attachments/assets/f05ac6af-5670-48d4-a65d-b3409cc02f48)<br>
 *Ref 14: LaZagne detections from new rule*<br>
 10. Go to orginization from the home page of LimaCharlie dashboard and select detection. Clear all of them and head back to your Windows 10 VM/server to run LaZagne. Go back to find detections after LaZagne is ran. We can now use the available fields in the event detection in our playbook.
+11. Get Slack, create a new channel for alerts so that Tines can send alert messages to teh alert channel.<br>
+    ![14  Alerts channel](https://github.com/user-attachments/assets/e8709c6a-9e01-4d3c-9e49-4c9bb07c0cd2)<br>
+*Ref 15: Alerts channel*<br>
+12. Get Tines and establish a new link between LimaCharlie and Tines. <br>
+    ![15  Start Tines playbook](https://github.com/user-attachments/assets/8ca0896f-2023-4eb5-96f3-8fd03facb62b)<br>
+*Ref 16: Star Tines Playbook*<br>
+13. Drag in a webhook and name it "Retrieve Detections", a description of "Retrieves LimaCharlie dections" and copy the webhook URI.
+14. Go to LimaCharlie, select your orginization then go to outputs, add output, pick Tines, and paste in the webhook URI.<br>
+    ![16  LC to Tines output](https://github.com/user-attachments/assets/52b439f4-5f74-4db7-9d8f-af7b87849496)<br>
+*Ref 17: LC to Tines output*<br>
+    ![17  LC output event](https://github.com/user-attachments/assets/d9469055-84c0-42c8-81df-c77e53fe9a03)<br>
+*Ref 18: LC output event*<br>
+15. Back at Tines, select events under retrieve detections webhook and select the most recent detection<br>
+    ![18  Tines event detected LaZagne](https://github.com/user-attachments/assets/d729d927-ad78-4873-a600-57409e1592c4)<br>
+*Ref 19: Tines event detected LaZagne*<br>
+    ![19  Tines recent detection](https://github.com/user-attachments/assets/6fb9b87c-0db8-464b-8472-5d64a3d4e1b2)<br>
+*Ref 20: Tines recent detection*
