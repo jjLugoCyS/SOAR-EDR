@@ -98,4 +98,23 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 27: Logs sending message*<br>
     ![27  Tines alert message](https://github.com/user-attachments/assets/18b50492-81f0-4e10-bace-7ee7dcfb00d7)<br>
 *Ref 28: Tines alert in Slack*<br>
-21. 
+21. Back at Tines, drag in a send email, connect retrieve detections to it.<br>
+    ![28  Connect wh to send email](https://github.com/user-attachments/assets/d92816ce-4c67-4fbf-8214-124f5e225bf1)<br>
+*Ref 29: Connect webhook to send email*<br>
+22. Click build tab in send email, fill in the description, for the email <a href="https://sqrx.com/">SquareX</a> disposable email was used.<br>
+    ![29  Build tab in send email](https://github.com/user-attachments/assets/5292c0a6-3af3-461a-a179-b759653dc7b7)<br>
+*Ref 30: Build tab in send email*<br>
+23. Click on send email then test, select the retrieve detections webhook and test. Check for Tines email.<br>
+    ![30  Tines alert email](https://github.com/user-attachments/assets/a04685f7-2241-4c9f-9fc6-675cd4ed89f5)<br>
+*Ref 31: Tines alert email*<br>
+24. In Tines click under tools on left, drag in a page, name it user prompt, put in a desctiption of what it does, and link the webhook to it.<br>
+    ![31  User Prompt](https://github.com/user-attachments/assets/ff6ad892-0dbd-4931-bed5-ee54084ac3b1)<br>
+*Ref 32: User Prompt*<br>
+    ![32  webhook linked to user prompt](https://github.com/user-attachments/assets/10892023-b0b9-4524-a90c-8188e81fc881)<br>
+*Ref 33: Webhook link to user prompt*<br>
+25. Click on edit page and fill out the header and body of the user prompt, drag in a boolean and change it's name.<br>
+    ![33  user prompt page](https://github.com/user-attachments/assets/b27bb0ff-f27d-4059-a0a2-97d08aabcc54)<br>
+*Ref 34: User prompt page*<br>
+26. Select the webhiook on the story page, click events, expand body and copy relevant fields.<br>
+    ![34  Event fields](https://github.com/user-attachments/assets/0b8c0887-fe38-4840-b3cc-be120c7f84de)<br>
+*Ref 35: Event fields*<br>
