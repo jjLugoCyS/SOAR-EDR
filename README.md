@@ -77,3 +77,25 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 19: Tines event detected LaZagne*<br>
     ![19  Tines recent detection](https://github.com/user-attachments/assets/6fb9b87c-0db8-464b-8472-5d64a3d4e1b2)<br>
 *Ref 20: Tines recent detection*
+16. Go over to Slack and click more and then automations. Search for Tines under Apps. In Tines go to your teams, then credentials to add a new credential, pick Slack. Use Tines app for Slack.<br>
+    ![20  Slack for Tines](https://github.com/user-attachments/assets/0ffc2fe8-a286-4573-92d1-ed1895a13281)<br>
+*Ref 21: Slack for Tines*<br>
+17. Head over to your story, select templates and drag over Slack. Search for message on the right, select send a message.<br>
+    ![21  Tines Send a message](https://github.com/user-attachments/assets/5362c3a5-20f9-4f9e-b2e2-9ea52fc98dd5)<br>
+*Ref 22: Tines send a message*<br>
+18. In Slack right click alertd channel and select view channel details.<br>
+    ![22  View channel details](https://github.com/user-attachments/assets/af40927a-9dff-428a-a32c-8e8579c079ab)<br>
+*Ref 23: View channel details*<br>
+19. Copy the channel ID. Paste it into the Slack channel ID field over in Tines, click connect to Slack(close the popup).<br>
+    ![23  Channel ID field tines](https://github.com/user-attachments/assets/365ff708-61a6-46ae-916d-2a25695c2c7f)<br>
+*Ref 24: Channel ID field Tines*
+20. Click out of the Slack app and click connect on the right beside slack (if no connections refresh, if not reconnect and click Tines slack app). Connect the webhook to Slack app, click run, then click status. Check the log to see sending to channel, head over to Slack channel to see the maessage<br>
+    ![24  Connect webhook to slack](https://github.com/user-attachments/assets/3c581356-6aaf-409b-9f90-426267c6f1fb)<br>
+*Ref 25: Connect webhook to Slack*<br>
+    ![25  Slack status](https://github.com/user-attachments/assets/ffea54f3-5278-4937-92b0-eed53543b95c)<br>
+*Ref 26: Slack status*<br>
+    ![26  Logs sending](https://github.com/user-attachments/assets/120866df-e6d1-4d3d-8e97-9f63b846782e)<br>
+*Ref 27: Logs sending message*<br>
+    ![27  Tines alert message](https://github.com/user-attachments/assets/18b50492-81f0-4e10-bace-7ee7dcfb00d7)<br>
+*Ref 28: Tines alert in Slack*<br>
+21. 
