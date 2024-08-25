@@ -140,3 +140,17 @@ The Detection Lab project aimed to establish a controlled environment for simula
 30. Click on User Prompt then on edit page, paste in alert fields and go back to test, click on visit page.<br>
     ![43  User prompt alert fields](https://github.com/user-attachments/assets/a8701b68-80b2-433f-b4d4-fd962e7877c2)<br>
 *Ref 44: User Prompt alert fields*<br>
+31. Back on the story screen drag in a trigger form the left. Name it "No" and connect the User Prompt element to it.<br>
+    ![44  Tines trigger](https://github.com/user-attachments/assets/e03c3a6c-3f4b-4088-b881-01d031402e86)<br>
+*Ref 45: Tines trigger*<br>
+    ![45   Tines no trigger](https://github.com/user-attachments/assets/02c6ea1d-5683-4c2b-aa07-4a3f182989e1)<br>
+*Ref 46:  Tines "No" trigger*<br>
+32. For rules click on +, value, user prompt(x2), body(x2), isolate then click out of it to save. On the right change foo to false in the trigger build tab.<br>
+    ![46  foo to false](https://github.com/user-attachments/assets/7d6fb291-bef1-4280-bca2-61dd37bc21e2)<br>
+*Ref 47: Foof to false*<br>
+33. Copy the Slack message and paste it into the story, change the message and connect it to the "No" trigger and test it from the trigger element.<br>
+    ![47  Slack message for no trigger](https://github.com/user-attachments/assets/8394cfd5-dcaa-42a4-b2d6-da2812318c89)<br>
+*Ref 48: Slack message from no trigger*<br>
+    ![48  Slack alert from trigger test](https://github.com/user-attachments/assets/71f99d55-e1db-4d95-9876-7d67de4255e9)<br>
+*Ref 49: Slack alert from trigger test*<br>
+34. 
