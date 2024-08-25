@@ -130,4 +130,13 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 39: Readability in Slack*<br>
     ![39  Alert details from detection link](https://github.com/user-attachments/assets/e4665f88-b052-4cb7-8204-09bfc5f6ca0b)<br>
 *Ref 40: Alert details from detection link*<br>
-29. 
+29. Click on send email and paste those readability fields into the body to make it look better(or keep them like the original). Click on open HTML editor and insert breaks, again for readability.<br>
+    ![40  Readability fields in send email](https://github.com/user-attachments/assets/f06c054c-22a9-45df-9f03-cc29ad83bc20)<br>
+*Ref 41: Readability fields in send email*<br>
+    ![41  Email line break readability](https://github.com/user-attachments/assets/4350e943-06bf-4650-81d9-9a3236f02c9e)<br>
+*Ref 42: Email line break readability*<br>
+    ![42  Tines alert email](https://github.com/user-attachments/assets/f3a36f53-99b0-4d15-8a66-de195b6d02b8)<br>
+*Ref 43: Tines alert email*<br>
+30. Click on User Prompt then on edit page, paste in alert fields and go back to test, click on visit page.<br>
+    ![43  User prompt alert fields](https://github.com/user-attachments/assets/a8701b68-80b2-433f-b4d4-fd962e7877c2)<br>
+*Ref 44: User Prompt alert fields*<br>
