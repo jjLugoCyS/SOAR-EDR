@@ -118,3 +118,16 @@ The Detection Lab project aimed to establish a controlled environment for simula
 26. Select the webhiook on the story page, click events, expand body and copy relevant fields.<br>
     ![34  Event fields](https://github.com/user-attachments/assets/0b8c0887-fe38-4840-b3cc-be120c7f84de)<br>
 *Ref 35: Event fields*<br>
+27. Im Tines click on Slack, under message click the +. Click Value and look for data. Click on retrieve detections(x2), click body(x2), find each field and click out of it to save. Pasting in the value from your notes also works<br>
+    ![35  Slack Message fields](https://github.com/user-attachments/assets/4aaf1899-f5b5-45a6-a126-97532bcfaa0a)<br>
+*Ref 36: Slack message fields*<br>
+28. Click on test under Slack app. Should see an alert on slack itself. For readability add labels to fields. And clicking on the detection link will display the details in LimaCharlie.<br>
+    ![36  Alerts on Slack](https://github.com/user-attachments/assets/59ca6565-0477-4d47-bc33-45ca11e23326)<br>
+*Ref 37: Alert on Slack*<br>
+    ![37  Readability fields](https://github.com/user-attachments/assets/e370aa44-f16b-485d-a4db-365201e7021b)<br>
+*Ref 38: Readability Fields*<br>
+    ![38  Slack readability fields](https://github.com/user-attachments/assets/297a1d1c-d6ec-4a8b-86c3-9e889a4447e7)<br>
+*Ref 39: Readability in Slack*<br>
+    ![39  Alert details from detection link](https://github.com/user-attachments/assets/e4665f88-b052-4cb7-8204-09bfc5f6ca0b)<br>
+*Ref 40: Alert details from detection link*<br>
+29. 
