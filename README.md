@@ -153,4 +153,18 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 48: Slack message from no trigger*<br>
     ![48  Slack alert from trigger test](https://github.com/user-attachments/assets/71f99d55-e1db-4d95-9876-7d67de4255e9)<br>
 *Ref 49: Slack alert from trigger test*<br>
-34. 
+34. Copy and Paste the trigger element and name it "Yes", then re-run the event(by: webhook>event>re-emit)<br>
+    ![49  Event re-run](https://github.com/user-attachments/assets/0918c76b-7568-4f52-822c-34b073099dcb)<br>
+*Ref 50: Event re-run*<br>
+35. Click the User Prompt element, then visit page, just now event label, click yes and submit. Check for the true output next to isolate.<br>
+    ![50  True input verify](https://github.com/user-attachments/assets/3b7086aa-7252-4a5f-b4c6-9fe66ce3f093)<br>
+*Ref 51: True input verification*<br>
+36. Connect the User Prompt to the new trigger, change the name, and false to true.<br>
+    ![51  Yes trigger build](https://github.com/user-attachments/assets/80894631-d724-4646-9c9c-b75d558dd476)<br>
+*Ref 52: Yes trigger build*<br>
+37. Click templates, and drag out a LimaCharlie element. Search for isolate sensor. Copy the sid field from your fields notes.<br>
+    ![52  Seonsor ID from fields notes](https://github.com/user-attachments/assets/29ed352a-b6c1-4fe8-bb23-0ce486aa59d0)<br>
+*Ref 53: Sensor ID from fields notes*<br>
+38. Paste it into isolate sensor. Connect "Yes" trigger to isolate sensor.<br>
+    ![53  Sensor fields and connection](https://github.com/user-attachments/assets/d60c9cb9-8cc4-46bc-9ad6-511d0f08a766)<br>
+*Ref 54: Sensor fields and connection*<br>
