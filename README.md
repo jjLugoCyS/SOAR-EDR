@@ -1,23 +1,27 @@
 # SOAR-EDR
 
 ## Objective
-
+Implement a SOAR-EDR to automate threat detection and response, incident management, and enhance the organization's overall security posture through real-time threat intelligence and coordinated defense action.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Understanding and utilizing threat intelligence feeds to enhance detection capabilities.
+- Automating response processes.
+- Creating and refining automated workflows for consistent and effective incident response.
+- Learning how to coordinate various security tools and processes.
+- Identifying, analyzing, and mitigating threats at the endpoint level.
+-  Analyzing security data and visualizing insights for better decision-making.
+-  Integrating SOAR with existing Security Information and Event Management (SIEM) systems.
+-  Gaining proficiency in specific SOAR-EDR platforms and their customization.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Windows 10 VirtualBox VM: Create a virtualized environment to safely test and deploy the SOAR-EDR solution.
+- Tines: Automating workflows and integrating various security tools for incident response and management.
+- Slack: Communicating and alerting within the incident response workflow.
+- LimaCharlie: Endpoint detection and response (EDR) platform to monitor and respond to threats.
+- SquareX: To detect, mitigate and threat-hunt web attacks. Used email component.
+- LaZagne.exe:  An open-source credentials recovery tool used for extracting passwords from various software and operating systems.
 
 ## Steps
 1. Using <a href="draw.io">Draw.io</a> create a playbook workflow. Where an alert is propagated and sent over to <a href="https://limacharlie.io/">LimaCharlie</a>. Then sent to <a href="https://www.tines.com/">Tines</a>. Tines then sends a message with specified details to <a href="https://slack.com/">Slack</a>, am email to a registered email address, and prompts the user to isolate the machine or not. If the user says yes then LimaCharlie goes ahead and isolates/quarantines the affected machine and delivers a message to Slack with a status of the isolated machine including a message of isolation. If no, then a message is sent to Slack notifying the machine has not been isolated/quarantined and an investigation should be performed.<br>
